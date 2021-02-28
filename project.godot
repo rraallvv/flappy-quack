@@ -70,7 +70,6 @@ utils="*res://scripts/utils.gd"
 [debug]
 
 gdscript/warnings/unused_variable=false
-gdscript/warnings/unused_class_variable=false
 gdscript/warnings/unused_argument=false
 gdscript/warnings/return_value_discarded=false
 gdscript/warnings/integer_division=false
@@ -82,6 +81,7 @@ window/size/height=256
 window/size/test_width=288
 window/size/test_height=512
 window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [input]
 
@@ -94,4 +94,5 @@ flap={
 [rendering]
 
 quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
 environment/default_environment="res://default_env.tres"

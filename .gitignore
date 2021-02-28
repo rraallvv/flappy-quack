@@ -81,3 +81,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/godot,linux,macos,windows
+
+# Exported game
+export/
